@@ -1,0 +1,5 @@
+print("hello")
+print(4+3)
+print("I feel happy")
+print("my rating for today",5)
+print("basketball\nrice")
