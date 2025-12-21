@@ -1,7 +1,6 @@
-import math
+def circle(r):
+    c = 2 * 3.14 * r
+    return c
 
-def circumference_of_circle(radius):
-    return 2 * math.pi * radius
-
-# example
-print(circumference_of_circle(5))
+r = float(input("Enter the radius: "))
+print(circle(r))
