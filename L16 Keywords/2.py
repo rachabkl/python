@@ -1,0 +1,12 @@
+for i in range (10):
+    if i%20 == 0:
+        print("Twist")
+    elif i%15 == 0:
+        pass
+    elif i%5:
+        print("Fizz")
+    elif i%3:
+        print("Buzz")
+    else:
+        print(i)
+    
